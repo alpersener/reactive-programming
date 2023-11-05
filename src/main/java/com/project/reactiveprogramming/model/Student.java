@@ -1,4 +1,4 @@
-package com.project.reactiveprogramming.student;
+package com.project.reactiveprogramming.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

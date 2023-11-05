@@ -1,5 +1,6 @@
-package com.project.reactiveprogramming.student;
+package com.project.reactiveprogramming.repository;
 
+import com.project.reactiveprogramming.model.Student;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import reactor.core.publisher.Flux;
 

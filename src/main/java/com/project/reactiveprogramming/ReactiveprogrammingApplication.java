@@ -1,7 +1,8 @@
 package com.project.reactiveprogramming;
 
-import com.project.reactiveprogramming.student.Student;
-import com.project.reactiveprogramming.student.StudentService;
+import com.project.reactiveprogramming.model.Student;
+import com.project.reactiveprogramming.service.StudentService;
+import com.project.reactiveprogramming.service.StudentServiceImpl;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
