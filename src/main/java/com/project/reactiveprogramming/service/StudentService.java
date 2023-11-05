@@ -11,4 +11,8 @@ public interface StudentService {
 
     Mono<Student> save(Student student);
 
+     Flux<Student> findByFirstname(String firstname);
+
+     void deleteById(Integer id);
+
 }

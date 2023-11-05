@@ -18,7 +18,7 @@ public class ReactiveprogrammingApplication {
     @Bean
     public CommandLineRunner runner(StudentService studentService){
         return args->{
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 10; i++) {
                 studentService.save(
                         Student.builder()
                                 .firstname("alper"+i)
